@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 
-import profile from './Assets/capivara.png';
-import TechList from './components/TechList';
+//import profile from './Assets/capivara.png';
+import PostList from './components/PostList';
+import Header from './components/Header';
 
-function App(){
-    return <TechList/>
+function App() {
+    return (<>
+        <Header />
+        <PostList />
+    </>);
 }
 
 export default App;
